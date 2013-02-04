@@ -14,6 +14,7 @@ Bundle 'gmarik/vundle'
 Bundle 'msanders/snipmate.vim'
 Bundle 'L9'
 Bundle 'kinabcd/kin.vim'
+Bundle 'hexman.vim'
 filetype plugin indent on     " required!
 "
 " Brief help
