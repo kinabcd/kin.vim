@@ -12,6 +12,7 @@ set pastetoggle=<F12>
 
 set encoding=utf-8
 set fileencodings=utf-8,cp950
+set showtabline=2
 
 map <C-Right> :tabnext<CR>
 map <C-Left>  :tabprevious<CR>
