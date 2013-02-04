@@ -41,6 +41,3 @@ set pastetoggle=<F12>
 set encoding=utf-8
 set fileencodings=utf-8,cp950
 
-for CONFIG in split(glob('~/.vim/vimrc.d/*.vim'), '\n')
-  exe 'source' CONFIG
-endfor
