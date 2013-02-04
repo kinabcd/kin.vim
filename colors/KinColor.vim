@@ -1,11 +1,4 @@
 " Vim color file
-" Maintainer: Mosky <mosky.tw@gmail.com>
-
-" NOTE: It does *NOT* check the compatibility at all.
-
-" # Reset Everything
-
-" reset syntax and highlight to the default
 hi clear
 syntax reset
 
@@ -84,7 +77,7 @@ hi clear Tooltip
 " NOTE: It is useful to find the code of terminal's 256-color: http://www.calmar.ws/vim/256-xterm-24bit-rgb-color-chart.html
 
 " modifiy the output of :colorsheme
-let g:colors_name="moskyfav"
+let g:colors_name="KinColor"
 
 " start to set the colors
 set background=dark
