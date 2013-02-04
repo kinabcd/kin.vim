@@ -16,3 +16,4 @@ set fileencodings=utf-8,cp950
 map <C-Right> :tabnext<CR>
 map <C-Left>  :tabprevious<CR>
 map <C-t> :tabnew<cr>
+map <C-w> :tabclose<CR>
