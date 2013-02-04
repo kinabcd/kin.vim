@@ -26,10 +26,7 @@ filetype plugin indent on     " required!
 " NOTE: comments after Bundle command are not allowed..
 
 
-if &t_Co > 1
-  syntax enable
-  colorscheme torte
-endif
+colorscheme KinColor
 
 set number "顯示行號
 set hls    "標記關鍵字
