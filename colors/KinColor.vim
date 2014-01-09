@@ -83,6 +83,9 @@ hi DiffText     ctermbg=130
 
 hi Title        ctermfg=228
 
+" gvim color
+hi Normal guibg=black guifg=grey 
+
 " GUI stuffs. I don't use GUI, so keep them clear.
 " hi Menu         ctermfg=253
 " hi Scrollbar    ctermfg=253

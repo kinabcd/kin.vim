@@ -15,6 +15,7 @@ Bundle 'msanders/snipmate.vim'
 Bundle 'L9'
 Bundle 'kinabcd/kin.vim'
 Bundle 'hexman.vim'
+Bundle 'ap/vim-css-color'
 filetype plugin indent on     " required!
 "
 " Brief help

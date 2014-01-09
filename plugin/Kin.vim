@@ -18,3 +18,5 @@ map <C-Right> :tabnext<CR>
 map <C-Left>  :tabprevious<CR>
 map <C-t> :tabnew<cr>
 map <C-w> :tabclose<CR>
+
+syn on
