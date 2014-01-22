@@ -25,7 +25,7 @@ hi Error      ctermfg=88  ctermbg=231 cterm=reverse
 hi Todo       ctermfg=226 ctermbg=196 cterm=reverse
 
 " vim's groups
-hi Normal       ctermfg=231
+hi Normal       ctermfg=white
 hi Visual       ctermfg=NONE cterm=reverse
 "hi VisualNOS
 hi NonText      ctermfg=244
@@ -84,7 +84,7 @@ hi DiffText     ctermbg=130
 hi Title        ctermfg=228
 
 " gvim color
-hi Normal guibg=black guifg=grey 
+hi Normal guibg=black guifg=white 
 
 " GUI stuffs. I don't use GUI, so keep them clear.
 " hi Menu         ctermfg=253
