@@ -1,5 +1,3 @@
-map <F5> :call Compile()<CR>
-map <F6> :call CompileRun()<CR>
 func! Compile()
   w
   silent make

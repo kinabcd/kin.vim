@@ -16,8 +16,4 @@ set showtabline=2
 
 set mouse=a
 
-map <C-Right> :tabnext<CR>
-map <C-Left>  :tabprevious<CR>
-map <C-t> :tabnew<cr>
-
 syn on
