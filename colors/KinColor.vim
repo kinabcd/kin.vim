@@ -30,7 +30,7 @@ hi Visual       ctermfg=NONE cterm=reverse
 "hi VisualNOS
 hi NonText      ctermfg=244
 
-hi LineNr       ctermfg=233
+hi LineNr       ctermfg=003
 "hi Cursor
 "hi CursorIM
 "hi CursorColumn

@@ -14,12 +14,10 @@ set encoding=utf-8
 set fileencodings=utf-8,cp950
 set showtabline=2
 
+set mouse=a
+
 map <C-Right> :tabnext<CR>
 map <C-Left>  :tabprevious<CR>
 map <C-t> :tabnew<cr>
-
-
-map <C-n> :NERDTreeTabsToggle<CR>
-let g:nerdtree_tabs_open_on_console_startup=1
 
 syn on
