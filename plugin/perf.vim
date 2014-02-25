@@ -15,5 +15,7 @@ set fileencodings=utf-8,cp950
 set showtabline=2
 
 set mouse=a
+set backupdir=~/.vim/backup//
+set directory=~/.vim/swap//
 
 syn on

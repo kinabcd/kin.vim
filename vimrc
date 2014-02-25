@@ -15,6 +15,16 @@ Bundle 'msanders/snipmate.vim'
 Bundle 'L9'
 Bundle 'kinabcd/kin.vim'
 
+Bundle 'maksimr/vim-jsbeautify'
+Bundle 'einars/js-beautify'
+
+" https://github.com/Shougo/neocomplete.vim
+Bundle 'Shougo/neocomplete.vim'
+
+" https://github.com/bling/vim-airline
+Bundle 'bling/vim-airline' 
+
+Bundle 'https://github.com/gorodinskiy/vim-coloresque.git'
 filetype plugin indent on     " required!
 "
 " Brief help
@@ -25,5 +35,4 @@ filetype plugin indent on     " required!
 "
 " see :h vundle for more details or wiki for FAQ
 " NOTE: comments after Bundle command are not allowed..
-
 
