@@ -1,7 +1,7 @@
 
-map <C-S-Right> :tabnext<CR>
-map <C-S-Left>  :tabprevious<CR>
-map <C-S-t> :tabnew<cr>
+nmap <C-S-Right> :tabnext<CR>
+nmap <C-S-Left>  :tabprevious<CR>
+nmap <C-S-t> :tabnew<cr>
 map <C-S-v> "+p
 map <C-S-c> "+y
 

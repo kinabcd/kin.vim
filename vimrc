@@ -24,6 +24,9 @@ Bundle 'Shougo/neocomplete.vim'
 " https://github.com/bling/vim-airline
 Bundle 'bling/vim-airline' 
 
+" https://github.com/vim-scripts/javacomplete
+Bundle 'vim-scripts/javacomplete'
+
 Bundle 'https://github.com/gorodinskiy/vim-coloresque.git'
 filetype plugin indent on     " required!
 "
