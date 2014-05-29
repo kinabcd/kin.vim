@@ -11,22 +11,25 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 " Bundles:
-Bundle 'msanders/snipmate.vim'
+"Bundle 'msanders/snipmate.vim'
 Bundle 'L9'
 Bundle 'kinabcd/kin.vim'
 
+" == Formatter
 Bundle 'maksimr/vim-jsbeautify'
 Bundle 'einars/js-beautify'
 
+" == Auto Complete
+Bundle 'Valloric/YouCompleteMe'
+Bundle 'marijnh/tern_for_vim'
 " https://github.com/Shougo/neocomplete.vim
-Bundle 'Shougo/neocomplete.vim'
+"Bundle 'Shougo/neocomplete.vim'
+"For Java : https://github.com/vim-scripts/javacomplete
+"Bundle 'vim-scripts/javacomplete'
 
 " https://github.com/bling/vim-airline
 Bundle 'bling/vim-airline' 
-
-" https://github.com/vim-scripts/javacomplete
-Bundle 'vim-scripts/javacomplete'
-
+Bundle "scrooloose/syntastic"
 Bundle 'https://github.com/gorodinskiy/vim-coloresque.git'
 filetype plugin indent on     " required!
 "
@@ -38,4 +41,4 @@ filetype plugin indent on     " required!
 "
 " see :h vundle for more details or wiki for FAQ
 " NOTE: comments after Bundle command are not allowed..
-
+let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extra_conf.py'
