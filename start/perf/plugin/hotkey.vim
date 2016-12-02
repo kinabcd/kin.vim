@@ -2,8 +2,6 @@
 nmap <C-S-Right> :tabnext<CR>
 nmap <C-S-Left>  :tabprevious<CR>
 nmap <C-S-t> :tabnew<cr>
-map <C-S-v> "+p
-map <C-S-c> "+y
 
 map <F5> :call Compile()<CR>
 map <F6> :call CompileRun()<CR>
