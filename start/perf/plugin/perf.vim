@@ -5,7 +5,7 @@ set hls    "標記關鍵字
 set ic     "搜尋不分大小寫
 set sw=4   "自動縮進的尺寸
 set ts=4   "Tab 寬度為 4 個字元
-set et     "編輯時將所有 Tab 替換為空格
+"set et     "編輯時將所有 Tab 替換為空格
 set smarttab
 set smartindent  " 設定 smartindent
 set pastetoggle=<F12>
@@ -17,5 +17,7 @@ set showtabline=8
 set mouse=a
 set backupdir=~/.vim/backup//
 set directory=~/.vim/swap//
+
+set path=$PWD/** " 将当前工作路径设为Vim PATH
 
 syn on
